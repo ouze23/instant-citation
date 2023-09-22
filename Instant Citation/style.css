@@ -1,0 +1,75 @@
+@font-face {
+    font-family: Merriweather;
+    font-family: Lastica;
+    font-family: Open-Sans-ExtraBold;
+    src: url("fonts/Merriweather-Italic.ttf") format("truetype");
+    src: url("fonts/Lastica.ttf") format("truetype");
+    src: url("fonts/OpenSans-ExtraBold.ttf") format("truetype");
+   
+};
+#section{
+    display: flex;
+}
+#section1{
+    width: 50%;
+    float: left;
+    padding-left: 5%;
+    margin-top: 15%;
+    padding: 10px;
+}
+#section2{
+    width: 50%;
+    float: right;
+}
+#section2 h1{
+    font-size: 25px;
+}
+h1{
+    font-family: Merriweather;
+    font-size: 60px;
+    line-height: 6rem;
+    margin-top: -1rem;
+}
+.Instant{
+    font-family: Lastica;
+    letter-spacing: 5px;
+}
+.Citation{
+    font-family: Open-Sans-ExtraBold;
+    background-color: #5D97F8;
+    padding: 8px;
+    border-radius: 5px;
+}
+.image-citation{
+    height: 400px;
+    width: 400px;
+    padding-left: 80px;
+
+}
+button{
+    padding: 5px 30px;
+    margin-left: 30%;
+    margin-top: 5%;
+    background-color: #5D97F8;
+    color: #fff;
+    border: 0;
+    border-radius: 6px;
+    margin-bottom: 10px;
+    font-size: 30px;
+}
+button:hover{
+    box-shadow: 10px 0px 10px #5D97F8;
+    background-color: #fff;
+    color: #5D97F8;
+}
+#citation{
+    border-radius: 10px;
+    box-shadow: 10px 0px 10px grey;
+}
+#lien{
+    text-decoration: none;
+    color: #fff;
+}
+#lien:hover{
+    color: #5D97F8;
+}
